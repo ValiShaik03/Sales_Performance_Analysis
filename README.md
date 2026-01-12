@@ -126,7 +126,7 @@ python src/analysis.py
 python src/visualization.py
 ```
 
-🧠 Key Learnings
+## 🧠 Key Learnings
 
 - Handling real-world data issues like encoding and inconsistent columns
 
@@ -135,5 +135,6 @@ python src/visualization.py
 - Translating raw data into actionable business insights
 
 - Structuring projects in an industry-ready format
+
 
 
