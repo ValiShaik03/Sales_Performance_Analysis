@@ -112,23 +112,28 @@ All charts are saved automatically in the `outputs/charts/` directory.
 ---
 
 ## ▶️ How to Run the Project
-```bash
+
 # Step 1: Clean data
+```
 python src/data_cleaning.py
-
+```
 # Step 2: Run analysis
+```
 python src/analysis.py
-
+```
 # Step 3: Generate visualizations
+```
 python src/visualization.py
+```
 
 🧠 Key Learnings
 
-Handling real-world data issues like encoding and inconsistent columns
+- Handling real-world data issues like encoding and inconsistent columns
 
-Writing reusable and fault-tolerant data pipelines
+- Writing reusable and fault-tolerant data pipelines
 
-Translating raw data into actionable business insights
+- Translating raw data into actionable business insights
 
-Structuring projects in an industry-ready format
+- Structuring projects in an industry-ready format
+
 
