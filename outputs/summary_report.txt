@@ -1,0 +1,67 @@
+SALES PERFORMANCE ANALYSIS – SUMMARY REPORT
+=========================================
+
+Project Objective:
+------------------
+The objective of this project is to analyze retail sales data to identify
+sales trends, high-performing regions and products, loss-making areas,
+and provide data-driven business recommendations.
+
+Dataset Overview:
+-----------------
+• Dataset Type: Retail / Superstore Sales Data
+• Records: ~50,000+
+• Key Fields:
+  - Order_Date
+  - Region
+  - Category / Sub_Category
+  - Sales
+  - Profit
+  - Quantity
+  - Discount
+
+Data Cleaning & Preparation:
+----------------------------
+• Fixed file encoding issues during CSV import
+• Standardized column names for consistency
+• Removed duplicate records
+• Handled missing values
+• Converted date columns to datetime format
+• Created derived columns:
+  - Month
+  - Year
+  - Profit_Margin
+
+Key Analysis Performed:
+----------------------
+• Total Sales and Total Profit calculation
+• Region-wise sales performance
+• Top 10 products by sales
+• Monthly sales trend analysis
+• Identification of loss-making product categories
+
+Key Insights:
+-------------
+1. Certain regions contribute significantly more to total sales.
+2. A small set of products drives a large portion of revenue.
+3. Some high-sales products generate negative profit due to heavy discounts.
+4. Sales show clear seasonal patterns across months.
+
+Business Recommendations:
+-------------------------
+• Focus marketing and inventory on high-margin products.
+• Reduce excessive discounting on loss-making categories.
+• Leverage high-performing regions for targeted campaigns.
+• Use seasonal trends for demand forecasting and promotions.
+
+Tools & Technologies Used:
+--------------------------
+• Python (Pandas, Matplotlib)
+• SQL (for aggregation and analysis)
+• Excel (initial data review)
+• Power BI (dashboard visualization)
+
+Conclusion:
+-----------
+This analysis provides actionable insights into sales performance
+and profitability, enabling better strategic and operational decisions.
